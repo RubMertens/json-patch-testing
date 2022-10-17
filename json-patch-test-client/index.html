@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <button id="add">add</button>
+    <button id="remove">remove</button>
+    <button id="change">change</button>
+    <button id="undo">undo</button>
+    <button id="redo">redo</button>
+    <button id="clear">clear</button>
+    <button id="startstopconnection">Stop Connection</button>
+
+    <div class="json-wrapper">
+      <div class="json">
+        <h2>last change</h2>
+        <pre id="lastChange"></pre>
+      </div>
+      <div class="json">
+        <h2>state</h2>
+        <pre id="json"></pre>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
